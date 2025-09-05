@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sadath - DevOps Student</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0 20px 0;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #2d3e50;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #444;
+        }
+        .bookshelf {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin: 40px 0;
+            gap: 20px;
+        }
+        .book {
+            width: 60px;
+            height: 180px;
+            border-radius: 8px 8px 2px 2px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            font-weight: bold;
+            color: #fff;
+            font-size: 1em;
+            margin-bottom: 0;
+            position: relative;
+        }
+        .book:nth-child(1) { background: #ff6f61; }
+        .book:nth-child(2) { background: #6b5b95; }
+        .book:nth-child(3) { background: #feb236; }
+        .book:nth-child(4) { background: #d64161; }
+        .book:nth-child(5) { background: #4a90e2; }
+        .book span {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            padding: 10px 0;
+        }
+        .shelf {
+            width: 400px;
+            height: 16px;
+            background: #8d5524;
+            border-radius: 8px;
+            margin: 0 auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .about {
+            max-width: 600px;
+            margin: 40px auto;
+            background: rgba(255,255,255,0.85);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .about h2 {
+            color: #2d3e50;
+            margin-bottom: 16px;
+        }
+        .about p {
+            color: #444;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Sadath</h1>
+        <p>DevOps Student</p>
+    </div>
+    <div class="bookshelf">
+        <div class="book"><span>Linux</span></div>
+        <div class="book"><span>Docker</span></div>
+        <div class="book"><span>Kubernetes</span></div>
+        <div class="book"><span>CI/CD</span></div>
+        <div class="book"><span>Cloud</span></div>
+    </div>
+    <div class="shelf"></div>
+    <div class="about">
+        <h2>About Sadath</h2>
+        <p>
+            Sadath is a passionate DevOps student who loves learning about automation, cloud technologies, and modern software delivery practices. 
+            With a strong foundation in Linux, containerization, and CI/CD pipelines, Sadath is always eager to explore new tools and collaborate on exciting projects.
+        </p>
